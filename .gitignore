@@ -1,0 +1,32 @@
+# Secrets – never commit
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Face data & trained models (biometric data, generated at runtime)
+**/face_data/*
+!**/face_data/.gitkeep
+face_model.yml
+face_metadata.json
+
+# Logs
+*.log
+
+# Real student lists (personal data)
+*.xlsx
+*.csv
+!database/sample_data/*.csv
+
+# IDE / OS
+.idea/
+.vscode/
+.vs/
+Thumbs.db
+.DS_Store

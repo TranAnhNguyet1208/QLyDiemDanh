@@ -1,0 +1,8 @@
+opencv-contrib-python==4.10.0.84
+PyQt5==5.15.11
+Pillow==10.4.0
+numpy==1.26.4
+typing_extensions
+requests
+matplotlib>=3.5.0
+openpyxl>=3.0.0
